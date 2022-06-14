@@ -30,15 +30,15 @@ const Header = () => {
                         <nav id="navbar" className="navbar order-last order-lg-0">
                             <ul>
                                 <li><NavLink className="nav-link scrollto" to="/">Home</NavLink></li>
-                                <li><NavLink className="nav-link scrollto" to="/">Departments</NavLink></li>
-                                <li><NavLink className="nav-link scrollto" to="/">Doctors</NavLink></li>
-                                <li><NavLink className="nav-link scrollto" to="/">About</NavLink></li>
-                                <li><NavLink className="nav-link scrollto" to="/">Contact</NavLink></li>
+                                <li><NavLink className="nav-link scrollto" to="/departments">Departments</NavLink></li>
+                                <li><NavLink className="nav-link scrollto" to="/doctors">Doctors</NavLink></li>
+                                <li><NavLink className="nav-link scrollto" to="/about">About</NavLink></li>
+                                <li><NavLink className="nav-link scrollto" to="/contact">Contact</NavLink></li>
                             </ul>
                             <i className="bi bi-list mobile-nav-toggle" />
                         </nav>
-                        <NavLink to="/" className="appointment-btn scrollto"><span className="d-none d-md-inline">Make an</span> Appointment</NavLink>
-                        <NavLink to="/" className="d-none d-md-inline appointment-btn scrollto"><span>Login/ Signup</span></NavLink>
+                        <NavLink to="/appointment" className="appointment-btn scrollto"><span className="d-none d-md-inline">Make an</span> Appointment</NavLink>
+                        <NavLink to="/login" className="d-none d-md-inline appointment-btn scrollto"><span>Login/ Signup</span></NavLink>
                     </div>
                 </header>
             </div>
